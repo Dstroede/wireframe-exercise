@@ -1,0 +1,57 @@
+header {
+    background-color: grey;
+    color: lightgrey;
+}
+#navContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: left;
+    place-content: space-between;
+    align-items: center;
+    padding:10px;
+    margin: 30px;
+}
+#hero-image {
+    display:flex;
+    margin: 30px;
+}
+#subBanners {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    place-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+#article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    place-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+#article.top{
+    display: inline;
+}
+#article.bottom{
+    display: inline;
+    te
+}
+.scroll {
+    margin:30px;
+    padding: 4px;
+    width: 350px;
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+
+
+}
+footer {
+    background-color: grey;
+}
