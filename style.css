@@ -2,6 +2,15 @@ header {
     background-color: grey;
     color: lightgrey;
 }
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    place-content: center;
+    align-items: center;
+    margin: 15px;
+}
 #navContainer{
     display: flex;
     flex-direction: row;
@@ -14,7 +23,7 @@ header {
 }
 #hero-image {
     display:flex;
-    margin: 30px;
+    margin: 15px;
 }
 #subBanners {
     display: flex;
@@ -23,35 +32,52 @@ header {
     align-content: center;
     place-content: space-between;
     align-items: center;
-    margin: 30px;
+    margin: 15px;
 }
-#article {
+article {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     place-content: space-between;
     align-items: center;
-    margin: 30px;
+    margin: 15px;
 }
-#article.top{
-    display: inline;
-}
-#article.bottom{
-    display: inline;
-    te
-}
+
+
 .scroll {
-    margin:30px;
+    margin:15px;
     padding: 4px;
     width: 350px;
-    height: 350px;
+    height: 250px;
     overflow-x: hidden;
     overflow-y: auto;
     text-align:justify;
+    
 
 
 }
+button {
+
+    width: 200px;
+    height:50px; 
+    transition: 350ms;
+
+}
+#wordbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    place-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+button:hover{
+    background-color: grey;
+    
+}
 footer {
     background-color: grey;
+    height: 150px;
 }
