@@ -49,19 +49,23 @@ article {
     margin:15px;
     padding: 4px;
     width: 350px;
-    height: 250px;
+    height: 300px;
     overflow-x: hidden;
     overflow-y: auto;
     text-align:justify;
     
-
-
+}
+h3{
+    font-size: 20px;
+    text-align: start;
+    margin: 5px;
 }
 button {
 
     width: 200px;
     height:50px; 
     transition: 350ms;
+    align-content: left;
 
 }
 #wordbox{
